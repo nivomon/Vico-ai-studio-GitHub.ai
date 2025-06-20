@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vico AI Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧠 Vico AI Studio</h1>
+    <p>Generate AI Images & Videos with one prompt</p>
+  </header>
+  <main>
+    <textarea id="prompt" placeholder="Enter your prompt here..."></textarea>
+    <div>
+      <label><input type="radio" name="mode" value="image" checked> Image</label>
+      <label><input type="radio" name="mode" value="video"> Video</label>
+    </div>
+    <button onclick="generate()">🎬 Generate</button>
+    <div id="output"></div>
+  </main>
+  <footer>
+    <p>© 2025 Vico AI Studio. Built by Nik.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
